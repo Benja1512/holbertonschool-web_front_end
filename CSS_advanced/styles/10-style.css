@@ -30,6 +30,9 @@
     --line-height-small: 1,2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+
+    /* Create a new custom property section-header-align and set it to center */
+    --section-header-align: center;
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -84,3 +87,8 @@ html {
     font-size: 62.5%;
 }
 
+/* Create a new declaration targeting the class section-header */
+.section-header {
+    /* Set horizontal alignment with section-header-align */
+    text-align: var(--section-header-align);
+}
