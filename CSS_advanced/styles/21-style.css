@@ -287,3 +287,18 @@ a[href]:not(.button) {
     display: table;
     clear: both;
 }
+
+/* Select all classes that start with col */
+[class^="cool-"] {
+    float: lef;
+    padding: 0.5em; /* assuming root element means the font size of the root element */
+}
+
+/* remove references to thse comom properties for the individual col 1-3 and col 1-2 classes */
+.col-1-3,
+.col-1-2 {
+    float: none;
+    padding: 0;
+}
+
+  
