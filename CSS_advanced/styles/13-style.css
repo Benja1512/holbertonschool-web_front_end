@@ -130,22 +130,24 @@ html {
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
 a[href]:not(.button) {
-
-}
-
-a[href]:visited:not(.button) {
+    /* Your existing styles for anchor elements containing a hyperlink */
+  }
+  
+  /* Directly after this declaration, target the visited state for the link */
+  a[href]:visited:not(.button) {
     /* Italicize the text */
     font-style: italic;
-}
-
-/* Directly after the visited state, target the hover state for the link */
-a[href]:hover:not(.button) {
-    /* Decorate the links with an underline when hoverin */
+  }
+  
+  /* Directly after the visited state, target the hover state for the link */
+  a[href]:hover:not(.button) {
+    /* Decorate the links with an underline when hovering */
     text-decoration: underline;
-}
-
-/* Directly after the hover state, target the active state for the link */
-a[href]:active:not(.button) {
-    /* Set the colour of the background with the variable colour-light.grey */
+  }
+  
+  /* Directly after the hover state, target the active state for the link */
+  a[href]:active:not(.button) {
+    /* Set the color of the background with the variable color-light-grey */
     background-color: var(--color-light-grey);
-}
+  }
+  
