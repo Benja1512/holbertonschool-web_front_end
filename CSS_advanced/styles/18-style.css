@@ -60,6 +60,14 @@ html {
     --section-body-padding: 0 0 3rem;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+
+    /* Create custome properties */
+    --nav-item-font-family: --font-family-title;
+    --nav-item-font-weight: --font-weight-bold;
+    --nav-item-font-size: --font-size-medium;
+    --nav-item-letter-spacing: 4%;
+    --nav-item-margin: 0 0 3em 0;
+    --nav-item-link-hover: --color-primary;
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -201,3 +209,36 @@ a[href]:not(.button) {
     background-color: var(--color-light-grey);
   }
 
+/* Target the navbar-menu class and float it to the right  */
+.navbar-menu {
+    float: right;
+}
+
+/* Target the nav class */
+.nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none; /* No list styling */
+}
+
+.nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+/* Target the nav-link class in nav class */
+.nav-link {
+    display: block;
+    padding: var(--nav-item-display) 0;
+}
+
+/* Hover state for nav-link clas in nav class */
+.nav-link:hover {
+    color: var(--nav-item-link-hover);
+    
+}

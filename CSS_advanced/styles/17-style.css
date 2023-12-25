@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+/* All fonts in the html element should be at 62.5% of their normal size */
+html {
+    font-size: 62.5%;
+}
+
 /* Target the root element and define custome properties */
 :root {
     --color-primary: #d73953;
@@ -104,10 +109,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-/* All fonts in the html element should be at 62.5% of their normal size */
-html {
-    font-size: 62.5%;
-}
 
 /* Target the class section and set padding on all 4 sides to section-padding*/
 .section {
@@ -120,7 +121,7 @@ html {
 }
 
 /* Target the section-footer class, pad all 4 sides with section-footer and set
-    thr horizontal alignment with section-footer-align */
+    the horizontal alignment with section-footer-align */
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-body-align);
@@ -176,7 +177,6 @@ html {
     /* Set the colour to section-title-colour */
     color: var(--section-title-color);
 }
-
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
 a[href]:not(.button) {
