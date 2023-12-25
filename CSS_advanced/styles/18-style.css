@@ -61,13 +61,7 @@ html {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 
-    /* Create custome properties */
-    --nav-item-font-family: --font-family-title;
-    --nav-item-font-weight: --font-weight-bold;
-    --nav-item-font-size: --font-size-medium;
-    --nav-item-letter-spacing: 4%;
-    --nav-item-margin: 0 0 3em 0;
-    --nav-item-link-hover: --color-primary;
+
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
