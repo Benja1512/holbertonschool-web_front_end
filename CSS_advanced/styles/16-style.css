@@ -48,6 +48,13 @@
     /* New custome properties */
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+    /* Padding, footer and align customes properties */
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -102,10 +109,18 @@ html {
     font-size: 62.5%;
 }
 
+/* Target the class section and set padding on all 4 sides to section-padding*/
+.section {
+    padding: var(--section-padding);
+}
+
 /* Create a new declaration targeting the class section-header */
 .section-header {
     /* Set horizontal alignment with section-header-align */
     text-align: var(--section-header-align);
+
+    /* Set .section-header's padding on all 4 sides to sectin-header-padding */
+    padding: var(--section-header-padding);
 }
 
 .section-tagline {
@@ -122,7 +137,7 @@ html {
 /* Target the container class after .section-tagline */
 .container {
     /* Set the width to 960px */
-    width: 960;
+    width: 960px;
 
     /* evenly distribute margins on both the left and right side */
     margin-left: auto;
@@ -144,6 +159,22 @@ html {
 
     /* Set the colour to section-title-colour */
     color: var(--section-title-color);
+}
+
+/* Target the section-body class, pad all 4 sides with section-body-padding */
+section-body{
+    padding:var(--section-body-padding);
+}
+
+/* Target the section-footer class, pad all 4 sides with section-footer and set
+    thr horizontal alignment with section-footer-align */
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-body-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
