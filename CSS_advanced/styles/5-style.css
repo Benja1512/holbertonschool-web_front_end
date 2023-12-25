@@ -6,7 +6,6 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color:var(--color-black);
-
     
 /* Targeting the root element, create 2 customes font-family properties */
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -18,8 +17,6 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-
-
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -37,16 +34,14 @@ body {
     /* Set color from color primary */
     color: var(--color-primary); 
 
-
     /* Set body's font-family to font-family-base */
     font-family: var(--font-family-base);
-
 
     /* Any fonts in the body have their size set to font-size-medium */
     font-size: var(--font-size-medium);
 }
 
-/* Sert a colour from colour root */
+/* Set a colour from colour root */
 a {
     color: var(--text-color);
 }
