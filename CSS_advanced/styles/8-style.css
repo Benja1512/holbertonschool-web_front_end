@@ -53,6 +53,9 @@ body {
     /* Set the boldness of fonts in the body to font-weight-regular */
     font-weight: var(--font-weight-regular);
 
+    /* Any fonts in the body should have their sizes set to font-size-medium */
+    font-size: var(--font-size-medium);
+
     /* Set the minimum height of lines boxes in the body t lines-height-base */
     line-height: var(--line-height-base);
 
@@ -77,7 +80,3 @@ html {
     font-size: 62.5%;
 }
 
-/* Any fonts in the body should have their sizes set to font-size-medium */
-body {
-    font-size: var(--font-size-medium);
-}
