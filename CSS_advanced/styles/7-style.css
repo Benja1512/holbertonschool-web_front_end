@@ -46,8 +46,13 @@ body {
     /* Set body's font-family to font-family-base */
     font-family: var(--font-family-base);
 
+    /* Any fonts in the body should have their sizes set to font-size-medium */
+    font-size: var(--font-size-medium);
+
     /* Set the boldness of fonts in the body to font-weight-regular */
     font-weight: var(--font-weight-regular);
+
+ 
 
 }
 
@@ -70,7 +75,3 @@ html {
     font-size: 62.5%;
 }
 
-/* Any fonts in the body should have their sizes set to font-size-medium */
-body {
-    font-size: var(--font-size-medium);
-}
