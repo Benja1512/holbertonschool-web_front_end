@@ -48,6 +48,13 @@
     /* New custome properties */
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+    /* Padding, footer and align customes properties */
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -152,6 +159,22 @@ html {
 
     /* Set the colour to section-title-colour */
     color: var(--section-title-color);
+}
+
+/* Target the section-body class, pad all 4 sides with section-body-padding */
+section-body{
+    padding:var(--section-body-padding);
+}
+
+/* Target the section-footer class, pad all 4 sides with section-footer and set
+    thr horizontal alignment with section-footer-align */
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-body-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
