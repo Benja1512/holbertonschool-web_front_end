@@ -1,3 +1,6 @@
+  /* import normalize.css at the beginning of your CSS file */
+  @import url('./normalize.css');
+
 /* Target the root element and define custome properties */
 :root {
     --color-primary: #d73953;
@@ -151,5 +154,3 @@ a[href]:not(.button) {
     background-color: var(--color-light-grey);
   }
   
-  /* import normalize.css at the beginning of your CSS file */
-  @import url('path/to/normalize.css');
