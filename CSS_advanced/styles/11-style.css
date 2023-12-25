@@ -39,16 +39,7 @@
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
-.section-tagline {
-    /* Set the family of fonts to font-family-title */
-    font-family: var(--font-family-title);
-
-    /* Transform the text using the property section-tagline-tansform */
-    text-transform: var(--section-tagline-transform);
-
-    /* Set the weight of fonts to font-weight-bold */
-    font-weight: var(--font-weight-bold);
-}
+.section-tagline,
 .card-category {
     color: var(--color-primary);
 }
@@ -105,3 +96,14 @@ html {
     text-align: var(--section-header-align);
 }
 
+
+.section-tagline {
+    /* Set the family of fonts to font-family-title */
+    font-family: var(--font-family-title);
+
+    /* Transform the text using the property section-tagline-tansform */
+    text-transform: var(--section-tagline-transform);
+
+    /* Set the weight of fonts to font-weight-bold */
+    font-weight: var(--font-weight-bold);
+}
