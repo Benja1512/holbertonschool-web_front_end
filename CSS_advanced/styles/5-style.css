@@ -14,5 +14,6 @@ html {
 
 /* Any fonts in the body have their size set to font-size-medium */
 body {
+    
     font-size: var(--font-size-medium);
 }
