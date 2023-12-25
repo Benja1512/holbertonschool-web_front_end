@@ -114,6 +114,22 @@ html {
     padding: var(--section-padding);
 }
 
+/* Target the section-body class, pad all 4 sides with section-body-padding */
+.section-body{
+    padding:var(--section-body-padding);
+}
+
+/* Target the section-footer class, pad all 4 sides with section-footer and set
+    thr horizontal alignment with section-footer-align */
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-body-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
+}
+
 /* Create a new declaration targeting the class section-header */
 .section-header {
     /* Set horizontal alignment with section-header-align */
@@ -161,21 +177,6 @@ html {
     color: var(--section-title-color);
 }
 
-/* Target the section-body class, pad all 4 sides with section-body-padding */
-section-body{
-    padding:var(--section-body-padding);
-}
-
-/* Target the section-footer class, pad all 4 sides with section-footer and set
-    thr horizontal alignment with section-footer-align */
-.section-footer {
-    padding: var(--section-footer-padding);
-    text-align: var(--section-body-align);
-}
-
-.footer {
-    padding: var(--footer-padding);
-}
 
 /* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
 a[href]:not(.button) {
