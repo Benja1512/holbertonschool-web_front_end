@@ -119,6 +119,16 @@ html {
     font-weight: var(--font-weight-bold);
 }
 
+/* Target the container class after .section-tagline */
+.container {
+    /* Set the width to 960px */
+    width: 960;
+
+    /* evenly distribute margins on both the left and right side */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-title {
     /* Set the family of fonts to font-family-title */
     font-family: var(--font-family-title);
@@ -159,12 +169,3 @@ a[href]:not(.button) {
     background-color: var(--color-light-grey);
   }
 
-/* Target the container class after .section-tagline */
-.container {
-    /* Set the width to 960px */
-    width: 960;
-
-    /* evenly distribute margins on both the left and right side */
-    margin-left: auto;
-    margin-right: auto;
-}
