@@ -21,10 +21,11 @@
     /* Targeting the root element, create custome properties */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    
-    /* Targeting the root element, create custom properties */
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;  
+
+    /* Targeting the root element, update custome properties for font families */
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 /* Revisist the section tagline and card category declaration amd resent their color to color-primary */
@@ -48,8 +49,6 @@ body {
     /* Set the boldness of fonts in the body to font-weight-regular */
     font-weight: var(--font-weight-regular);
 
-    /* Set the boldness of fonts in the body to font-weight-regular */
-    font-weight: var(--font-weight-regular);
 }
 
 /* Set a colour from colour root */
@@ -63,9 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 
     /* Set the boldness of fonts in the headings to font weight-bold */
-    font-weight: var(--font-weight-bold);
-
-    /* Set the boldness of fonts in the headings to font-weight-bold */
     font-weight: var(--font-weight-bold);
 }
 
